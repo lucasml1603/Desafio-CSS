@@ -1,0 +1,55 @@
+body {margin: 0%; padding-left: 0%; padding-right: 0%};
+
+{link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:bold,medium"}
+
+.container {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu a {
+      font-family:Montserrat;
+      font-weight: bold;
+      color: #379ad6;
+      text-decoration:
+      none; padding: 5px;}
+  .menu a:hover {
+     color: #fc490b;
+ }
+
+   .item-1 {
+     margin: 10px;
+ }
+ 
+  .item-2 {
+    background: rgb(201, 201, 201);
+    text-align: right;
+    height: 20px;
+    font-size: small;
+    padding-right: 10px;
+  }
+
+  .item-3 {font-family:Montserrat; font-weight: medium; width: 80%; padding: 30px; margin: auto; }
+
+  .item-4 {
+    background: rgb(201, 201, 201);
+    text-align: center;
+    font-family:Montserrat; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+    height: 20px;
+  }
+  .item-4 a{
+    color: #379ad6; 
+    text-decoration: none;
+  }
+
+  .item-4 a:hover{
+    color: #fc490b;
+  }
+
+  .fi-brands-html5, .fi-sr-envelope {color: #fc490b;}
+  .fi-brands-css3-alt {color: #379ad6; text}
